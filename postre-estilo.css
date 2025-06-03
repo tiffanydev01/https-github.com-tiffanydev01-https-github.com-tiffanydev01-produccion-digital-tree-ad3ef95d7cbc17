@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 120px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fffaf6;
+  color: #333;
+  line-height: 1.6;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 28px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #555;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.postre {
+  display: block;
+  margin: 40px auto;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Cormorant Garamond', serif;
+  color: #4d3b2a;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+
+h4 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: black;
+}
+
+ul, ol {
+  margin: 20px 0 20px 40px;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+video {
+  width: 800px;
+  height: auto;
+}
+
+.footer {
+  width: 100%;
+  background-color: #DDA158;
+  color: white;
+  font-family: serif;
+  font-size: 14px;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 60px;
+}
+
+.footer-left {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-left: 6px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-logo:hover {
+  color: #333;
+}

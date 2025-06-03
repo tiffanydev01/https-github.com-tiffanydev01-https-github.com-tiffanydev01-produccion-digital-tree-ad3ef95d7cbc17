@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: normal;
+}
+
+.logo a {
+  color: black;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+body {
+  padding-top: 80px;
+  font-weight: normal;
+}
+
+.logo {
+  font-size: 28px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #555;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #000;
+}
+
+
+.imagen-pequena {
+  width: 500px !important;
+  max-width: 50% !important;
+  height: auto;
+}
+
+h1, h2 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+img {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.titulo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  padding: 20px;
+}
+
+.portada {
+  background-image: url('image/restaurante.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-width: 20%;
+  height: auto;
+}
+
+.contenedor-flex {
+  display: flex;
+  gap: 30px;
+  padding: 0 40px;
+  margin-top: 40px;
+  align-items: flex-start;
+}
+
+.texto-izquierda {
+  max-width: 50%;
+}
+
+.titulo-bouquet {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.5rem;
+  margin: 0 0 10px 0;
+}
+
+.texto-izquierda p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.imagen-derecha {
+  max-width: 600px;
+  height: auto;
+  margin-left: auto 10px;
+  margin-bottom: 80px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #DDA158;
+  font-family: 'Serif', 'Georgia', sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer-left,
+.footer-right {
+  flex: 1;
+}
+
+.footer {
+  background-color: #DDA158;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: serif;
+  font-size: 14px;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-top: 8px;
+  color: white;
+  font-weight: bold;
+}
+
+.footer-logo:hover {
+  color: #333;
+}

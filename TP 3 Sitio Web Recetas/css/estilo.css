@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+   margin:0;
+   padding:0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+
+}
+
+header {
+  overflow: hidden;
+  background-color: white;
+  padding: 10px 
+}
+
+.logo {
+  float: left;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.logo img {
+  height: 80px;
+  object-fit: contain;
+}
+
+.navegacion {
+  margin-left: 200px;
+  padding: 10px 50px;
+  float: right;
+  text-align: right;
+  margin-top: 15;
+  line-height: 80px;
+}
+
+.navegacion a {
+  margin-left: 30px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 30px;
+  color: black;
+}
+
+section, .imagen-fondo {
+  margin-top: 0px;
+}
+
+.bloque-fondo {
+  position: relative;
+  text-align: center;
+}
+
+.imagen-fondo {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.texto-central {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 80px;
+  font-weight: 400;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color:white;
+}
+
+.pagina-especial h2 {
+  color: yellowgreen;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 40px;
+}
+
+.pagina-especial h4 {
+  margin-bottom: 15px;
+}
+
+.pagina-especial li {
+  margin-bottom: 15px;
+}
+
+.pagina-especial ul {
+  padding-left: 30px;
+}
+
+.pagina-especial ol {
+  padding-left: 30px;
+}
+
+.pagina-especial .descripcion {
+  background-color: whitesmoke;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.pagina-especial .ingredientes {
+  background-color: whitesmoke;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.pagina-especial .preparacion {
+  background-color: whitesmoke;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.video {
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.pie-de-pagina {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 30px;
+  color: white;
+  background-color: yellowgreen;
+  clear: both;
+  padding-top: 30px;
+}
+
+.texto-pie small {
+  display: block;
+  margin-top: 10px;
+}
+
+.texto-pequeno {
+  font-size: 25px;
+  color: white;
+  padding-top: 10px;
+}
